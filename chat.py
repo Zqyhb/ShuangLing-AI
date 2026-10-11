@@ -1,5 +1,3 @@
-import os
-
 print("霜灵AI启动中...")
 
 personality = """
@@ -16,7 +14,7 @@ while True:
     user = input("用户：")
 
     if user == "退出":
-        print("霜灵AI：再见。")
+        print("霜灵AI关闭")
         break
 
-    print("霜灵AI：收到你的问题，我正在分析。")
+    print("霜灵AI：", user)
